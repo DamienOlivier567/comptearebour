@@ -1,0 +1,73 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+
+}
+
+#container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#time{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px 10px;
+    box-shadow: 10px 10px 30px cornflowerblue;
+}
+
+#hautHeures, #hautMinutes, #hautSecondes, #basHeures, #basMinutes, #basSecondes{
+    border: none;
+    background-color: lightblue;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    box-shadow: 10px 10px 30px cornflowerblue;
+}
+
+#textHeures, #textMinutes, #textSecondes{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+#changeTime{
+    font-size: 60px;
+}
+
+#boutons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#demarrer{
+    background-color: lightseagreen;
+    font-size: 35px;
+    border-radius: 10px 10px;
+    box-shadow: 10px 10px 30px cornflowerblue;
+}
+
+#reset, #pause, #continue{
+    display: none;
+    font-size: 30px;
+    background-color: red;
+    border-radius: 10px 10px;
+}
+
+#continue{
+    background-color: green;
+}
